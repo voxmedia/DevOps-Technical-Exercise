@@ -1,6 +1,6 @@
 # Welcome to the DevOps technical exercise!
 
-*You should spend a maximum of 2 hours on this exercise.*
+**You should spend a maximum of 2 hours on this exercise.**
 The goal of this exercise is to help us inform a technical discussion and gage your level of comfort with writing and discussing code. Understanding your thought process is more important than whether or not you finished, so we do not expect  a "perfect" solution. That said, when we meet we expect you to be prepared to discuss:
 
 - Your process (how you got started, where you ran into difficulties, any research/googling you did, etc)
@@ -16,8 +16,6 @@ It sends the following messages:
 * A list of new CVEs given an application's framework
 * A warning indicating that n number of branches are older than 2 weeks
 * A notice of failing tests.
-
----
 
 ## Instructions
 
