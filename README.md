@@ -22,7 +22,7 @@ It sends the following messages:
 Using the language and framework of your choice, please implement two features of the *Healthly* product, i.e. build a tool that will send two of these metrics on a schedule.
 
 ## Getting Started && Deliverables
-- Proceed with the exercise using the language or framework that you are comfortable with and feel will allow you to produce highest quality of work given the time frame.
+- Proceed with the exercise using the language or framework that you are comfortable with and feel will allow you to produce the highest quality of work given the time frame.
 - Once you consider yourself done and/or the 2 hours window is complete, add a README with instructions on how to run the application locally.
 - ZIP up your code and send it to the recruiter in an email.
 
