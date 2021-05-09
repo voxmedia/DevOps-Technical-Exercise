@@ -1,0 +1,21 @@
+version: "3.8"
+volumes:
+  bundle:
+services:
+  app:
+    build:
+      context: .
+      target: dev
+    image: app.dev
+    command: bundle-audit
+    environment:
+      - DATABASE_HOST=mysql
+      - REDIS_HOST=redis
+      - STATSD_HOST=stats
+      - LOG_LEVEL=info
+      - USER
+    volumes:
+      - .:/app:cached
+      - bundle:/usr/local/bundle
+    networks:
+      - default
