@@ -7,7 +7,7 @@ services:
       context: .
       target: dev
     image: app.dev
-    command: bundle-audit
+    command: irb
     environment:
       - DATABASE_HOST=mysql
       - REDIS_HOST=redis
