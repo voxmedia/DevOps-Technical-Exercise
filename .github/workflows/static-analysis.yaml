@@ -1,9 +1,9 @@
-name: Health Checks
+name: Bundle Audit Checks
 on: [push, workflow_dispatch]
 
 jobs:
   build:
-    name: Health Checks
+    name: Bundle Audit Checks
     runs-on: ubuntu-20.04
     steps:
       - name: Checkout
