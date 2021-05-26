@@ -9,7 +9,7 @@ The goal of this exercise is to help us inform a technical discussion and gage y
 
 ## Prompt
 
-Build an application that collects metrics on this repository (`devops-technical-exercise`) on a weekly basis and stores them in a time-series database.
+Build a standalone application that collects metrics on this repository (`devops-technical-exercise`) on a weekly basis and stores them in a time-series database.
 We recommend using [StatsD and Graphite](https://hub.docker.com/r/graphiteapp/graphite-statsd/), but feel free to use something else if you're more familar/comfortable with it.
 This should work locally – we do not expect you to deploy this project to a production environment.
 
